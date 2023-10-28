@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+}
+
+header>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.items{
+    padding:0% 15%;
+    
+    display : flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.new {
+    color: #BF4800;
+    font-size: 10px;
+    font-style: normal;
+
+}
